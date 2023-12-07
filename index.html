@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="playerSelection">
-      <button id="paper">Paper</button>
-      <button id="rock">Rock</button>
-      <button id="scissor">Scissor</button>
+    <div class="gameContainer">
+      <h3 class="title">Rock ... Paper ... Scissor ... Shoot!</h3>
+      <p class="eventText"></p>
+      <div class="gameMaterial">
+        <div class="score">
+          <p class="scoreTitle">Current Score:</p>
+          <p class="currentScore">0</p>
+        </div>
+        <div class="choices">
+          <p class="computerChoice"></p>
+          <div class="playerSelection">
+            <button id="paper" class="playerChoice">Paper</button>
+            <button id="rock" class="playerChoice">Rock</button>
+            <button id="scissor" class="playerChoice">Scissor</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

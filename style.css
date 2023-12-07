@@ -1,0 +1,63 @@
+body {
+    margin:1rem 5rem;
+    text-align: center;
+    background-color: #383838;
+}
+
+.gameContainer{
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+    background: #000085;
+    border: solid .3rem lightgray;
+    border-radius: 1rem;
+}
+
+.gameMaterial{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 5rem;
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+}
+
+.score{
+    padding: 1rem;
+    border: solid .2rem lightblue;
+    border-radius: 2rem;
+    .scoreTitle{
+        font-size: 25px;
+        color: lightgrey;
+    }
+    .currentScore{
+        font-size: 25px;
+        color: lightgray;
+    }
+}
+
+.eventText{
+    color: lightgray;
+    font-size: 28px;
+}
+
+.computerChoice{
+    color: lightgray;
+    font-size: 24px;
+}
+
+.playerChoice{
+    padding: .1rem 1rem;
+    background-color: #000085;
+    color: lightgrey;
+    font-size: 24px;
+    border-radius: 1.5rem;
+    border: solid .15rem lightgray;
+}
+
+.playerChoice:hover{
+    background-color: #5050c2;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
